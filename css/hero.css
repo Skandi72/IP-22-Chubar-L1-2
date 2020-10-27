@@ -1,0 +1,53 @@
+
+.hero__conteiner {
+    margin-top: 115px;
+display: flex;
+}
+.hero__inner{
+   margin-right: 132px;
+}
+.hero__headeing{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8
+}
+.hero__paragraph{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.botton__play-text{
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF
+}
+.hero__play{
+    align-items: center;
+    display: flex;
+    margin-right: 183px;
+    }
+@media screen and (max-width: 768px) {
+    .hero__conteiner {
+        margin-top: 0px;
+    }
+    .hero__inner{
+
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .hero__play{
+        display: none;
+    }
+    .hero__headeing{
+        margin-top: 250px;
+
+    }
+}   
