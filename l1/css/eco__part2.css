@@ -1,0 +1,49 @@
+.eco{ 
+    max-width: 1000px;
+    background-color: #ffffff;
+}
+.eco_text__part2{
+    margin-left: 45px;
+    margin-top: 56px;
+    margin-right: 57px;
+}
+.eco_header_patrt2{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 38px;
+    color: #222F33;
+}
+.eco_paregraph_part2{
+    font-family: Rubik;
+    font-size: 14px;
+    line-height: 26px;
+    color: #646D70;
+}
+.bottom_eco__part2{
+    margin-top: 41px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #606B74;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.eco__img{
+    margin-right: 80px;
+}
+@media screen and (max-width: 768px) {
+    .eco{
+        margin: 0 auto;
+    }
+    .eco__part2 {
+        flex-direction: column;
+    }
+    .eco__img {
+        padding-top: 30px;
+    }
+
+}   

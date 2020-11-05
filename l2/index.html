@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brocard</title>
+    <link rel="stylesheet" href="css/global.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+</head>
+ </head>
+ <body>
+    <script type="module" src="./js/name.js"></script>
+
+     <div class="container">
+         <div class="header">
+             <div class="header-text">
+                <h3 class="header-text">Brocard</h3>
+             </div>
+             <div class="delete">
+                    <div class="delet_section">
+                        <img class="delete_section_icon" src="svg/delete.svg" alt="basket">
+                    </div>
+                </div>
+            </div>
+         <div class="hero">
+             <div class="key">
+                <form id="add_form" class="key-add">
+                    <h2 class="key_add_title">Add perfume</h2>
+                    <div class="key_add_form">
+                        <label for="exampleInputEmail1" class="form-laber" >Name</label>
+                        <input type="text" class="form-control" id="name_input">
+                    </div>
+                    <div class="key_add_form">
+                        <label for="exampleInputPassword1" class="form-laber">Description</label>
+                        <input type="text" class="form-control" id="description_input">
+                    </div>
+                    <button id="add_button" type="submit" class="btn btn-primary">Add</address></button>
+                </form>
+                <div class="find-key">
+                    <h2 class="key_add_title">Find parfume</h2>
+                    <input type="text" class="form-control" id="find_input">
+                    <div class="find-button">
+                        <button id="find_button" type="button" class="btm find_button">Find</address></button>
+                        <button id="cancel_find_button" type="button" class="bt cencel_button">Cancel</address></button>
+                    </div>
+                </div>
+         </div>
+         <ul id="items_container" class="col-md-4 mt-5 mt-md-2 mx-auto" >
+
+         </ul>
+     </div>
+     <script type="module" src="./js/name.js"></script>
+    </body>
+</html>
